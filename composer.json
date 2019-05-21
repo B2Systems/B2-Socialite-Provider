@@ -1,0 +1,20 @@
+{
+    "name": "b2systems/b2-socialite-provider",
+    "description": "B2Systems OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Christian Braybrooke",
+            "email": "chris@purplemountmedia.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "socialiteproviders/manager": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "B2Systems\\B2Socialite\\": "src/"
+        }
+    }
+}
